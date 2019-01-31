@@ -1,0 +1,26 @@
+h1 {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#date {
+  margin-bottom: 30px;
+}
+
+.list-group-item {
+  padding-bottom: 20px;
+}
+
+.ruby-slide {
+  text-align: center;
+}
+
+#carousel {
+  background-color: gray;
+  text-align: center;
+
+}
