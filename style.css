@@ -8,7 +8,7 @@ h2 {
 }
 
 #date {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .list-group-item {
@@ -23,4 +23,8 @@ h2 {
   background-color: gray;
   text-align: center;
 
+}
+
+#pricing {
+  background-color: gray;
 }
