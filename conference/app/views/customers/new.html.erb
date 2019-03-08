@@ -1,1 +1,19 @@
-<h1>Customers</h1>
+<%= form_with scope: :customers, local: true do |form| %>
+
+<p>
+	<%= form.label :title %>
+	<%= form.text_field :title %>
+</p>
+
+<p>
+	<%= form.label :text %>
+	<%= form.text_field :text %>
+</p>
+
+
+
+<p>
+	<%= form.submit %>
+</p>
+
+<% end %>
