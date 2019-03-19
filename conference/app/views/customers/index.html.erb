@@ -1,6 +1,6 @@
 <% @customers.each do |customer|%>
 
-<h1><%= link_to customer.firstname, customer_path(customer) %></h1>
+<h1><%= link_to customer.lastname, customer_path(customer) %></h1>
 
 
 <%= link_to 'Show', customer_path(customer) %>
