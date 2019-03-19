@@ -1,3 +1,6 @@
+
+<!-- Loops through customers in database and lists them on page -->
+
 <% @customers.each do |customer|%>
 
 <h1><%= link_to customer.lastname, customer_path(customer) %></h1>
